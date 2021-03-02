@@ -13,7 +13,7 @@ WIN_COMBINATIONS = [
   WIN_COMBINATIONS.detect do |win_combo|
     if (board[win_combo[0]]) == "X" && (board[win_combo[1]]) && (board[win_combo[2]])
       return win_combo
-    elsif (board[win_combo[0]]) == "O" && (board[win_combo[1]]) == "O" && (board[win_combo[2]]) == "O"
+    elsif (board[win_combo[0]]) == "O" && (board[win_combo[1]]) == "O" && (board[win_combo[2] == "O"]) 
       return win_combo
     end
       false
