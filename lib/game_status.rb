@@ -13,7 +13,12 @@ WIN_COMBINATIONS = [
     winner = []
     
     WIN_COMBINATIONS.each do {|nested_win|}
-    if board == nil || (board.all? == "X" || "O")
-      false 
-      elsif board
+    win_1 = nested_win[0]
+    win_2 = nested_win[1]
+    win_3 = nested_win[2]
+    win_4 = nested_win[3]
+    win_5 = nested_win[4]
+    win_6 = nested_win[5]
+    win_7 = nested_win[6]
+    win_8 = nested_win[7]
     
