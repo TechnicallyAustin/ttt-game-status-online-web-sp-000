@@ -10,4 +10,8 @@ WIN_COMBINATIONS = [
   [2,5,8], [2,4,6]]
   
   def won?
-    if 
+    winner = []
+    
+    WIN_COMBINATIONS.each do {|nested_win|}
+    if board
+    
