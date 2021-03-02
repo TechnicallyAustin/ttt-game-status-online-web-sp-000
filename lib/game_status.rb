@@ -10,29 +10,12 @@ WIN_COMBINATIONS = [
   [2,5,8], [2,4,6]]
   
   def won?(board)
-    WIN_COMBINATIONS.each do |nested_win|
-    win_1 = nested_win[0]
-    win_2 = nested_win[1]
-    win_3 = nested_win[2]
-    win_4 = nested_win[3]
-    win_5 = nested_win[4]
-    win_6 = nested_win[5]
-    win_7 = nested_win[6]
-    win_8 = nested_win[7]
-    
-    pos_1 = board[win_1]
-    pos_2 = board[win_2]
-    pos_3 = board[win_3]
-    pos_4 = board[win_4]
-    pos_5 = board[win_5]
-    pos_6 = board[win_6]
-    pos_7 = board[win_7]
-    pos_8 = board[win_8]
-    
-    if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
-      WIN_COMBINATIONS
-      elsif pos_1 == "O" && pos_2 == "O" && pos_3 == "O"
-      WIN_COMBINATIONS
+  WIN_COMBINATIONS.detect do |win_combo|
+    if (board[win_combo[0]]) == "X" && (board[win_combo[1]]) && (board[win_combo[2]])
+      return win_combo
+    elsif (board[win_combo[0]]) == "O" && (board[win_combo[1]]) == "O" && (board[win_combo[2]]) == "O"
+      return win_combo
     end
+      false
   end
 end
