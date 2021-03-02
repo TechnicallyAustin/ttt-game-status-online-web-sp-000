@@ -22,3 +22,4 @@ WIN_COMBINATIONS = [
     win_7 = nested_win[6]
     win_8 = nested_win[7]
     
+    pos_1 = win_1
