@@ -10,8 +10,6 @@ WIN_COMBINATIONS = [
   [2,5,8], [2,4,6]]
   
   def won?(board)
-    winner = []
-    
     WIN_COMBINATIONS.each do {|nested_win|}
     win_1 = nested_win[0]
     win_2 = nested_win[1]
