@@ -27,3 +27,6 @@ WIN_COMBINATIONS = [
     pos_3 = board[win_3]
     pos_4 = board[win_4]
     pos_5 = board[win_5]
+    pos_6 = board[win_6]
+    pos_7 = board[win_7]
+    
