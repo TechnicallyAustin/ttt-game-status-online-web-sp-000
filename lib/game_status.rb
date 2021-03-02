@@ -29,4 +29,4 @@ WIN_COMBINATIONS = [
     pos_5 = board[win_5]
     pos_6 = board[win_6]
     pos_7 = board[win_7]
-    
+    pos_8 = board[win_8]
