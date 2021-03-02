@@ -31,4 +31,4 @@ WIN_COMBINATIONS = [
     pos_7 = board[win_7]
     pos_8 = board[win_8]
     
-    if pos_1 == "X" && pos_2 == "X" && pos_3
+    if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
