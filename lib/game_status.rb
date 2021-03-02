@@ -22,4 +22,8 @@ WIN_COMBINATIONS = [
     win_7 = nested_win[6]
     win_8 = nested_win[7]
     
-    pos_1 = win_1
+    pos_1 = board[win_1]
+    pos_2 = board[win_2]
+    pos_3 = board[win_3]
+    pos_4 = board[win_4]
+    pos_5 = board[win_5]
