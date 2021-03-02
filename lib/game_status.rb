@@ -32,4 +32,9 @@ WIN_COMBINATIONS = [
     pos_8 = board[win_8]
     
     if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
-      
+      WIN_COMBINATIONS
+      elsif pos_1 == "O" && pos_2 == "O" && pos_3 == "O"
+      WIN_COMBINATIONS
+    end
+  end
+end
